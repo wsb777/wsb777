@@ -44,21 +44,23 @@ package main
 import "fmt"
 
 type Developer struct {
-    Name     string
-    Focus    []string
-    Learning []string
-    Goals    []string
+	Name     string
+	Focus    []string
+	Learning []string
+	Goals    []string
 }
 
 func main() {
-    me := Developer{
-        Name:     "Aleksey",
-        Focus:    []string{"Backend Development", "System Design"},
-        Learning: []string{"Golang", "Kubernetes", "Distributed Systems"},
-        Goals:    []string{"Build scalable systems", "Master cloud native tech"},
-    }
-    
-    fmt.Print("\"📚The more I know, the more I realize that I know nothing.\" - Plato")
+	me := Developer{
+		Name:     "Aleksey",
+		Focus:    []string{"Backend Development", "System Design"},
+		Learning: []string{"Golang", "Kubernetes", "Distributed Systems"},
+		Goals:    []string{"Build scalable systems", "Master cloud native tech"},
+	}
+
+	fmt.Printf("My name is %s and below I want to share my favorite quote.", me.Name)
+
+	fmt.Print("\n\"📚The more I know, the more I realize that I know nothing.\" - Plato")
 }
 ```
 
