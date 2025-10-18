@@ -58,7 +58,7 @@ func main() {
         Goals:    []string{"Build scalable systems", "Master cloud native tech"},
     }
     
-    fmt.Print("\"📚The more I know, the more I realize that I know nothing.\n - Plato")
+    fmt.Print("\"📚The more I know, the more I realize that I know nothing.\" - Plato")
 }
 ```
 
